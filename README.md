@@ -63,8 +63,7 @@ QPS 24000、协程版本稍晚放出
 master is 1.2.x version 
 
 ```bash
-git clone https://github.com/tal-tech/fend.git
-composer install --no-dev
+composer create-project fend/fend-skeleton project_name
 ```
 
 Ref [nginx.conf](https://github.com/tal-tech/fend/blob/master/nginx.conf) to configure Nginx and http://127.0.0.1/ on browser 
@@ -72,8 +71,7 @@ Ref [nginx.conf](https://github.com/tal-tech/fend/blob/master/nginx.conf) to con
 #### Swoole Engine Start
 
 ```bash
-git clone https://github.com/tal-tech/fend.git
-composer install --no-dev
+composer create-project fend/fend-skeleton project_name
 
 # swoole start ( /bin/fend depend on composer require symfony/console )
 php /bin/fend Swoole -c app/Config/Swoole.php start
