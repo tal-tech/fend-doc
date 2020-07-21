@@ -1,0 +1,26 @@
+{
+	"language": "zh",
+	"plugins": [
+		"splitter",
+		"back-to-top-button",
+		"theme-comscore"
+	],
+	"pluginsConfig": {
+		"theme-api": {
+			"theme": "light"
+		},
+		"fontSettings": {
+			"theme": "white",
+			"family": "msyh",
+			"size": 2
+		}
+	},
+	"pdf": {
+		"toc": true,
+		"fontFamily": "msyh",
+		"pageNumbers": true,
+		"fontSize": 12,
+		"paperSize": "a4"
+		
+	}
+}

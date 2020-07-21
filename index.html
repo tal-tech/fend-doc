@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fend</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+
+    <link rel="stylesheet" href="/fend/assets/vue.css" />
+    <style type="text/css">
+      body {
+         --theme-color: #8486ff;
+      }
+      .sidebar p.active > a {
+        color: #8486ff;
+        border-right: 2px solid;
+        font-weight: 600;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: 'Fend',
+        logo: 'assets/fend.png',
+        repo: 'https://github.com/tal-tech/fend',
+        loadSidebar: 'SUMMARY.md',
+        loadNavbar: true,
+        subMaxLevel: 3,
+        showLevel: true,
+        noEmoji: true,
+        coverpage: false,
+        auto2top: true,
+        autoHeader: false,
+        search: {
+          maxAge: 3600,
+          paths: 'auto',
+          placeholder: '搜索',
+          noData: '未找到结果',
+          depth: 9
+        },
+        pagination: {
+          previousText: '上一章节',
+          nextText: '下一章节'
+        }
+      }
+
+    </script>
+    <script src="/fend/assets/docsify.min.js"></script>
+    <script src="/fend/assets/search.min.js"></script>
+    <script src="/fend/assets/docsify-pagination.min.js"></script>
+    <script src="/fend/assets/docsify-copy-code.min.js"></script>
+    <script src="/fend/assets/prism-sql.min.js"></script>
+    <script src="/fend/assets/prism-http.min.js"></script>
+    <script src="/fend/assets/prism-json.min.js"></script>
+    <script src="/fend/assets/prism-bash.min.js"></script>
+    <script src="/fend/assets/prism-java.min.js"></script>
+    <script src="/fend/assets/prism-markdown.min.js"></script>
+    <script src="/fend/assets/prism-nginx.min.js"></script>
+    <script src="/fend/assets/prism-php.min.js"></script>
+    <script src="/fend/assets/prism-python.min.js"></script>
+    <script src="/fend/assets/zoom-image.min.js"></script>
+  </body>
+</html>
