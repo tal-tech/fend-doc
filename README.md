@@ -40,7 +40,7 @@ Fend 框架是一款以企业快速实现业务为主要目标的框架，但与
  
  ![](./assets/fpm_perform.png) 
  
-QPS 5331 
+QPS 5331 (分析：fpm空跑hello 1w、引入composer autoload 后 7000、开启日志trace 6000、框架内echo 5000)
  
 ### Swoole 1.10.x 性能
  服务器配置
