@@ -94,4 +94,8 @@ browser http://127.0.0.1:9572/
 欢迎挑战组件功能、允许同类功能同时发布竞争、以 性能好 + 实用及实现简单 + 功能实用 评判
 
 ## 联系我们
-issue: [https://github.com/tal-tech/fend/issues](https://github.com/tal-tech/fend/issues)
+issue: [https://github.com/tal-tech/fend/issues](https://github.com/tal-tech/fend/issues) 
+
+加群请加微信： 
+
+![](./assets/contactus.png) 
