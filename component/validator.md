@@ -4,10 +4,6 @@ Validator组件是Fend框架验证参数类合集，目前主要有两款：
   * Validator 老款仿造Thinkphp实现的validator，对输入参数多规则验证，目前没有在维护，后续会投入精力进行整理
   * Validation 模仿laravel规则制作的参数验证组件
 
-## 引入组件
-```bash
-composer require php/fend-plugin-validator
-```
 
 ## Validation 使用样例
 ```php

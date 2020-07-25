@@ -11,7 +11,7 @@
 | - Http    | Controller    | HTTP对外服务业务，建议不同域名代码放在不同子文件夹下 |
 | - Services| 服务层         | Service项目内标准服务封装，如果要对外建议controller封装 |
 | - Model   | model层        | 数据模块封装目录，内含所有数据源调用封装 |
-| - View    | view层，模板    | Smarty模板，如需请composer require fend-plug-tempalte |
+| - View    | view层，模板    | Smarty模板、或php原生引擎 |
 | bin       | 命令行工具     | Swoole服务容器进程管理、辅助开发工具、Debug工具等 |
 | coverage  | 单元测试结果    | 单元测试结果 内有report\index.html 可以查看代码覆盖率 |
 | fend      | Framework 框架 | Fend框架，composer版本没有此目录 |

@@ -4,11 +4,6 @@
 
 ErrCode组件用于提供统一的、按模块划分的错误码以及错误信息集合功能。通过简单的配置文件就可以实现错误码对应错误信息的统一管理。
 
-## 安装
-
-```bash
-composer require php/fend-plugin-errcode
-```
 
 ## 配置
 

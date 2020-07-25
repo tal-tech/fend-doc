@@ -12,10 +12,6 @@ Fend Swoole服务目前已经做了良好的封装，用户可以很容易从FPM
 
 另外有一些注意事项需要注意，相关信息放到了[Swoole开发人员使用注意事项](/component/swooleserver/swooledev.md)
 
-## Swoole组件引入
-```bash
-composer require php/fend-plugin-server
-```
 
 ## 服务组成
  
