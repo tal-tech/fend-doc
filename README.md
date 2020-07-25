@@ -53,11 +53,12 @@ QPS 5331 (分析：fpm空跑hello 1w、引入composer autoload 后 7000、开启
   
 QPS 24000、协程版本稍晚放出
 
-### Release Note
- * Tag 1.2.x FPM/Swoole 1.10.x support FPM \<-\> Swoole 1.10.x
- * Tag 1.3.x FPM/Swoole 4.5.x support FPM \<-\> Swoole Coroutine 4.5.x
+### 发行版本介绍
+Fend有两个版本
+ * Tag版本为 1.2.x FPM/Swoole 1.10.x 平滑切换版本
+ * Tag版本为 1.3.x FPM/Swoole 4.5.x Coroutine 协程 平滑切换版本
 
-## Install for 1.2.x branch for Swoole 1.10.x Multiple Process Version
+## 以下为1.2.x版本安装
 
 #### FPM Engine Start
 master is 1.2.x version 
@@ -80,7 +81,7 @@ php /bin/start.php -c app/Config/Swoole.php start
 
 browser http://127.0.0.1:9572/ 
 
-## Install for 1.3.x branch for Swoole 4.5.x Coroutine version
+## 1.3.0协程版本 安装
 ```bash
 composer create-project fend/fend-skeleton:~1.3.0
 ```
