@@ -36,8 +36,14 @@ Swoole 1.10 + 或 4.4.x (请勿使用2.x版本)
 Fend使用十分简单，拷贝到 LNMP/Lamp/XAMPP 环境即直接使用（Swoole模式需要扩展）
 
 ## 框架安装
+注意fend有两个版本
+ * ~1.2.0 Swoole 多进程版本 + FPM 平滑切换版本
+ * ~1.3.0 Swoole协程版本 + FPM 平滑切换版本
+
+请根据需要选择版本
+ 
 ```bash
-composer create-project fend/fend-skeleton project_name
+composer create-project fend/fend-skeleton:版本号 project_name
 ```
 
 ## PHP-FPM模式 Nginx配置

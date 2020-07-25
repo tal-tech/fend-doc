@@ -57,13 +57,13 @@ QPS 24000、协程版本稍晚放出
  * Tag 1.2.x FPM/Swoole 1.10.x support FPM \<-\> Swoole 1.10.x
  * Tag 1.3.x FPM/Swoole 4.5.x support FPM \<-\> Swoole Coroutine 4.5.x
 
-## Install for 1.2.x branch
+## Install for 1.2.x branch for Swoole 1.10.x Multiple Process Version
 
 #### FPM Engine Start
 master is 1.2.x version 
 
 ```bash
-composer create-project fend/fend-skeleton project_name
+composer create-project fend/fend-skeleton:~1.2.0 project_name
 ```
 
 Ref [nginx.conf](https://github.com/tal-tech/fend/blob/master/nginx.conf) to configure Nginx and http://127.0.0.1/ on browser 
@@ -71,7 +71,7 @@ Ref [nginx.conf](https://github.com/tal-tech/fend/blob/master/nginx.conf) to con
 #### Swoole Engine Start
 
 ```bash
-composer create-project fend/fend-skeleton project_name
+composer create-project fend/fend-skeleton:~1.2.0 project_name
 
 # swoole start ( /bin/fend depend on composer require symfony/console )
 php /bin/fend Swoole -c app/Config/Swoole.php start
@@ -79,6 +79,11 @@ php /bin/start.php -c app/Config/Swoole.php start
 ```
 
 browser http://127.0.0.1:9572/ 
+
+## Install for 1.3.x branch for Swoole 4.5.x Coroutine version
+```bash
+composer create-project fend/fend-skeleton:~1.3.0
+```
 
 ## 合作伙伴
 好未来教育集团90%在线业务在使用本框架
