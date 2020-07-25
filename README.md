@@ -56,7 +56,7 @@ QPS 24000、协程版本稍晚放出
 ### 发行版本介绍
 Fend有两个版本
  * Tag版本为 1.2.x FPM/Swoole 1.10.x 平滑切换版本
- * Tag版本为 1.3.x FPM/Swoole 4.5.x Coroutine 协程 平滑切换版本
+ * Tag版本为 1.3.x FPM/Swoole 4.5.x Coroutine 协程 平滑切换版本 `此版本还在调整`
 
 ## 以下为1.2.x版本安装
 
