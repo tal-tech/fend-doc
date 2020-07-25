@@ -31,7 +31,7 @@ composer install --no-dev
  "require": {
         "nikic/fast-route": "^1.3", //可删除
         "symfony/console": "^4.3", //可删除
-        "xeslib/redis": "^0.1.7" //可删除
+        "smarty/smarty": "^3.1" //可删除
     }
 ]
 ```
