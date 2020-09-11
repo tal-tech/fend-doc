@@ -54,9 +54,10 @@
 
 ## 请求接口附带参数
 建议http请求附加在header，其他请求再讨论
+参照代码位置：fend/src/Server/Http.php   类文件 function  onRequest 70行-110行实行
  
- * tal\_trace\_id   
- * tal\_rpc\_id. 
+ * traceid   
+ * rpcid 
 
 ##采样规则及范围
 日志量如果过大会导致接口性能下降，而采样无法回放每一次请求细节对于低概率故障无效。  
