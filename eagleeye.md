@@ -53,7 +53,8 @@
 
 
 ## 请求接口附带参数
-建议http请求附加在header，其他请求再讨论
+建议http请求附加在header，其他请求再讨论  
+
 参照代码位置：fend/src/Server/Http.php   类文件 function  onRequest 70行-110行实行
  
  * traceid   
