@@ -46,7 +46,7 @@ if(!$mysql->real_connect('xxx','xxx')){
 
 目前可以在init.php内定义了register\_shutdown\_function 
 
-此函数在项目推出时会自动触发函数对最后一次错误信息（使用error\_get\_last\(\)函数，命令行也可工作）对错误信息进行收集整理，若当前请求在fpm的debug模式下，会在请求结尾输出具体debug信息到返回值
+此函数在项目退出时会自动触发函数对最后一次错误信息（使用error\_get\_last\(\)函数，命令行也可工作）对错误信息进行收集整理，若当前请求在fpm的debug模式下，会在请求结尾输出具体debug信息到返回值
 
 ## Exception类型
  > Fend对Exception做了分类封装，异常类放在 \Fend\Exception\ 内
